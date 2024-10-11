@@ -1,0 +1,38 @@
+html {
+    font-size: 16px;
+}
+/*Usar mediasquery para hacer adaptable la letra a un diferente dispositivo*/
+
+@media screen and (max-width:400px) {
+    html {
+        font-size: 4px;
+    }
+}
+html, body {
+    height: 50%;
+}
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.782;
+    color: rgb(234, 245, 13);
+    margin: 0;
+    padding: 7px;
+}
+/*tipografia*/
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5,.h6{
+    font-family: "Frank Ruh1 libre", serif;
+    font-weight: 500;
+    font-size: normal;
+    color: #ed0f0f;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+}
+table{
+    border-color: blue;
+}
